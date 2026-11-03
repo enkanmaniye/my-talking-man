@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+build/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+npm-debug.log*
+
+# Secrets: only the example file may be committed
+.env
+.env.*
+!.env.example
